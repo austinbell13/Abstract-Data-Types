@@ -8,7 +8,7 @@ This repository contains implementations of fundamental Abstract Data Types (ADT
 
 Each ADT is implemented using both arrays (circular arrays when needed) and linked lists as underlying data structures to provide different trade-offs in terms of performance and memory usage.
 
-| ADT | Implementation | Enqueu/Push | Dequeue/Pop | Space Complexity |
+| ADT | Implementation | Enqueue/Push | Dequeue/Pop | Space Complexity |
 | --- | -------------- | ----------- | ----------- | ---------------- |
 | Queue | Array | O(1) (if not full) | O(1) | O(n) |
 | Queue | Linked List | O(1) | O(1) | O(n) |
