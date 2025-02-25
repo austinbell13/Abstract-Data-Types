@@ -34,7 +34,6 @@ public class ArrayStack<T> implements Stack<T> {
             throw new IllegalStateException("Stack is empty!");
         }
         T topItem = stack.getItem(top);
-        stack.setItem(top, null);
         top--;
         return topItem;
     }
